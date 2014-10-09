@@ -80,6 +80,6 @@ Rails.application.configure do
   # Requiered in Heroku
 
 # Paperclip config:
-#  Paperclip.options[:image_magick_path] = '/opt/ImageMagick/bin'
-#  Paperclip.options[:command_path] = '/opt/ImageMagick/bin'
+  Paperclip.options[:image_magick_path] = '/opt/ImageMagick/bin'
+  Paperclip.options[:command_path] = '/opt/ImageMagick/bin'
 end
