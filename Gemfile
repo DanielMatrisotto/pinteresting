@@ -11,7 +11,8 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',         group: :doc
 gem 'spring',        			group: :development
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 gem 'devise', '~> 3.4.0'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '~> 1.55.0'
